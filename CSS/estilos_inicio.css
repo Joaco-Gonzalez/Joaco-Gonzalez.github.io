@@ -85,7 +85,15 @@ a {
     margin: 1rem;
 }
 
-#seccion_inicio {
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion_inicio, #seccion_funciones,#seccion_descargas, #seccion_contacto {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -176,7 +184,8 @@ i {
 }
 
 .CONTENIDO_FUNCIONES_SUP {
-    background-image: url(/Recursos/Imagenes/FUNCIONES_SUP.jpg);
+    padding-top: 26vh;
+    background-image: url(../Recursos/Imagenes/FUNCIONES_SUP.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,10 +256,35 @@ width: 350px;
 .CONTENIDO_INF3 {
     margin: 1rem;
     height: 35vh;
-    width: 33.33rem;
+    width: 33vw;
     color: #000;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.CONTENIDO_INF1_,
+.CONTENIDO_INF2_,
+.CONTENIDO_INF3_ {
+    margin: 1rem;
+    height: 35vh;
+    width: 33vw;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CONTENIDO_FUNCIONES2 {
+    height: 90vh;
+    width: 100vw;
+}
+
+.CONTENIDO_INF2 {
+    height: 50vh;
+    width: 100vw;
 }
 
 .icon {
@@ -258,7 +292,15 @@ width: 350px;
     justify-content: center;
     align-items: center;
     height: 35vh;
-    width: 11.11rem;
+    width: 10vw;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 14vw;
 }
 
 .mapaGoogle,
@@ -349,6 +391,10 @@ button:hover {
     background-color: #3d07bb;
 }
 
+.li_texto {
+    font-size: small;
+}
+
 #seccion_descargas {
     display: flex;
     justify-content: center;
@@ -365,7 +411,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/Recursos/Imagenes/elsanti.jfif);
+    background-image: url(/BWD_DPW_2024/Recursos/Imagenes/elsanti.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -412,6 +458,7 @@ h3 {
 p {
     color: #fff;
 }
+
 .btn-descarga {
     width: 80px;
     height: 80px;
