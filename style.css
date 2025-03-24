@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-menu {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-menu ul li a:hover {
+    transition: 0.5s;
+    color: #f44336;
+}
+
+.introduccion {
+    width: 90%;
+    color: #131212;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.introduccion h1 {
+    font-size: 62px;
+}
+
+.introduccion p {
+    margin: 10px 0px 40px;
+    font-size: 14px;
+}
+
+.boton {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #f44336;
+    padding: 12px 34px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+/*------------------Materiales-----------------*/
+
+.materiales {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.fila {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.materiales-columna {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.materiales-columna:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*------Proceso---------*/
+.proceso {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.tarjeta {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgb (0, 0, 0, 0.2);
+    cursor: default;
+    transform: all 400ms ease;
+}
+
+.tarjeta:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 210px;
+}
+
+.tarjeta .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+/*--------Galeria------------*/
+.galeria {
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.columna {
+    display: flex;
+    padding: 5px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
